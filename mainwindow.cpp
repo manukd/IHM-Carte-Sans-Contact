@@ -184,7 +184,7 @@ void MainWindow::lire()
 
 void MainWindow::on_deconnecter_clicked()
 {
-    // Deconnexion boutton
+    // Deconnexion bouton
     CloseCOM1(&MonLecteur);
     ui->connecter->setEnabled(true);
     ui->deconnecter->setEnabled(false);
