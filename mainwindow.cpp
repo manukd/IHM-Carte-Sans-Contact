@@ -286,7 +286,7 @@ void MainWindow::showStatus()
         if (status != MI_OK){
             printf("Load Key [FAILED]\n");
         }
-        // Si aucun probleme alors on lit les donnees
+        // Si les cles peuvent être chargees alors on reassocie la carte au lecteur dans le but de la lire
         if(status == 0) {
                 BYTE atq[2];
                 BYTE sak[1];
